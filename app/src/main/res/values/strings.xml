@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App 名稱 (如果您的 App 名稱不是 PowerClear，請自行調整) -->
+    <string name="app_name">AutoClear</string>
+
+    <string name="restriction_serial_number_title">Serial Number</string>
+    <string name="restriction_serial_number_description">輸入Serial Number參數</string>
+
+    <string name="restriction_knox_client_id_title">Knox Client ID</string>
+    <string name="restriction_knox_client_id_description">Samsung Knox Manage API Client ID</string>
+
+    <string name="restriction_knox_client_secret_title">Knox Client Secret</string>
+    <string name="restriction_knox_client_secret_description">Samsung Knox Manage API Client Secret</string>
+
+    <string name="restriction_apps_to_clear_data_title">要清除資料的應用程式包名</string>
+    <string name="restriction_apps_to_clear_data_description">以逗號分隔的應用程式包名列表，例如: com.microsoft.teams,com.example.app</string>
+
+    <string name="restriction_screen_off_delay_minutes_title">螢幕關閉延遲 (分鐘)</string>
+    <string name="restriction_screen_off_delay_minutes_description">螢幕關閉後觸發操作的延遲時間 (分鐘)</string>
+
+    <string name="restriction_trigger_mode_title">觸發模式</string>
+    <string name="restriction_trigger_mode_description">選擇觸發清除App資料的模式</string>
+
+    <!-- 觸發模式的選項 (與 arrays.xml 配合) -->
+    <string name="trigger_mode_charging_entry">充電時</string>
+    <string name="trigger_mode_screen_off_entry">螢幕關閉後</string>
+
+</resources>

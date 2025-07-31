@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction
+        android:key="serial_number"
+        android:title="@string/restriction_serial_number_title"
+        android:restrictionType="string"
+        android:description="@string/restriction_serial_number_description"
+        android:defaultValue="" />
+    <restriction
+        android:key="knox_client_id"
+        android:title="@string/restriction_knox_client_id_title"
+        android:restrictionType="string"
+        android:description="@string/restriction_knox_client_id_description"
+        android:defaultValue="" />
+    <restriction
+        android:key="knox_client_secret"
+        android:title="@string/restriction_knox_client_secret_title"
+        android:restrictionType="string"
+        android:description="@string/restriction_knox_client_secret_description"
+        android:defaultValue="" />
+    <restriction
+        android:key="apps_to_clear_data"
+        android:title="@string/restriction_apps_to_clear_data_title"
+        android:restrictionType="string"
+        android:description="@string/restriction_apps_to_clear_data_description"
+        android:defaultValue="" />
+    <restriction
+        android:key="screen_off_delay_minutes"
+        android:title="@string/restriction_screen_off_delay_minutes_title"
+        android:restrictionType="integer"
+        android:description="@string/restriction_screen_off_delay_minutes_description"
+        android:defaultValue="1" />
+    <restriction
+        android:key="trigger_mode"
+        android:title="@string/restriction_trigger_mode_title"
+        android:restrictionType="choice"
+        android:entries="@array/trigger_modes_entries"
+        android:entryValues="@array/trigger_modes_values"
+        android:description="@string/restriction_trigger_mode_description"
+        android:defaultValue="charging" />
+</restrictions>
+    

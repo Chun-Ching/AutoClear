@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trigger_modes_entries">
+        <item>@string/trigger_mode_charging_entry</item>
+        <item>@string/trigger_mode_screen_off_entry</item>
+    </string-array>
+    <string-array name="trigger_modes_values">
+        <item>charging</item>
+        <item>screen_off</item>
+    </string-array>
+</resources>
